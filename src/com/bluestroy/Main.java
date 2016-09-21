@@ -103,6 +103,84 @@ public class Main {
     }
     public static void main(String[] args){
 //        arraysUsage();
-        collectionsUsage();
+//        collectionsUsage();
+        bitOperation();
+//        int a[] ={2,6,8,9,12,33};
+//        int x = Arrays.binarySearch(a,7);
+//        println(x);
+//        int y = binarySearch(a,0,a.length-1,7);
+//        println("terstl....");
+//        println(y);
+        println("ddddddddddddccccc...");
     }
+
+    /**
+     *
+     * @param a             待查找的数组
+     * @param startIndex  待查找的数组的起始下标
+     * @param endIndex  待查找的数组的终点下标
+     * @param key       待查找的值
+     * @return  返回找到的数的下标，找不到则返回负数（应该插入的位置下标的相反数）
+     */
+    public static int binarySearch(int[]a ,int startIndex, int endIndex,int key){
+        int low = startIndex;
+        int high = endIndex;
+        while (low<=high){
+            int mid = (low+high) >> 1;
+            if (key < a[mid])
+                high = mid -1;
+            else if (key > a[mid])
+                low = mid +1;
+            else return mid;        //返回找到的数的下标
+        }
+        return -low;    //没找到则返回应该插入的下标的相反数
+    }
+
+
+    /**
+     * 常见的位运算
+     */
+    public static void bitOperation(){
+        int a= 56;
+        int b =23;
+
+        /******不用临时变量交换两个数*****/
+        a^=b;
+        b^=a;
+        a^=b;
+        println("a:"+a);
+        println("b:"+b);
+
+        /*****乘2运算*****/
+        int c = a << 1 ;
+        println(c);
+
+        /*****除2运算*****/
+        int d = b>>1;
+        println(d);
+
+        /*****乘2的n次方   x << n ********/
+        int e = 3 << 2;
+        println(e);
+
+        /********除2的n次方  x >> n  ******/
+        println(8 >> 2);
+
+        /********* 判断一个数的奇偶性，true奇数，false偶数 *****/
+        println((9 & 1)==1);
+        println((8 & 1)==1);
+
+        /**** 判断两个数符号是否相同，true相同，false不同 ***/
+        println((8 ^ -2)>=0);
+        //求平均数
+        println((3+2)>>1);
+
+        /**** >>是算术（有符号）右移，它使用最高位填充移位后左侧的空位，不改变符号。
+         * >>> 是逻辑无符号（）右移，它用0填充左侧的空为。没有算术含义   */
+        println(">>和>>>的区别：");
+        println((byte)-4>>1);
+        println((byte)-4>>>1);
+
+    }
+
 }
