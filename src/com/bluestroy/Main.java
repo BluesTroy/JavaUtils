@@ -41,7 +41,10 @@ public class Main {
             }
         });
 
-
+        char[] s = {'a','b'};
+        char[] t = {'a','b'};
+        //判断两个数组的内容是否相等
+        println(Arrays.equals(s,t));
         println(Arrays.toString(c));
         println(Arrays.toString(xa));
         println(Arrays.toString(xb));
