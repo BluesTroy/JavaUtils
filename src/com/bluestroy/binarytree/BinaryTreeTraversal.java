@@ -8,7 +8,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 /**
- * 二叉树的遍历类
+ * 二叉树的遍历类。时间复杂度都是O(n)，空间复杂度都是O(logn)树的深度
  */
 public class BinaryTreeTraversal {
 
