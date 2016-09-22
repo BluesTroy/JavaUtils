@@ -112,6 +112,11 @@ public class Main {
 //        println("terstl....");
 //        println(y);
         println("ddddddddddddccccc...");
+        //字符串翻转
+        String str = "kfdoweijre";
+        StringBuilder sb = new StringBuilder(str);
+        sb.reverse();
+        System.out.println(sb.toString());
     }
 
     /**
