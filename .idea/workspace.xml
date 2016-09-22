@@ -6,12 +6,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b3457a6-b37a-430a-88d1-0d89cb45e98c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/bluestroy/binarytree/BinaryTreeTraversal.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/bluestroy/binarytree/CretateBinaryTree.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/bluestroy/binarytree/TreeNode.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaUtils/com/bluestroy/Main.class" afterPath="$PROJECT_DIR$/out/production/JavaUtils/com/bluestroy/Main.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/bluestroy/binarytree/CountNode.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/bluestroy/Main.java" afterPath="$PROJECT_DIR$/src/com/bluestroy/Main.java" />
     </list>
     <ignored path="JavaUtils.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,40 +25,15 @@
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="DockManager">
-    <window id="1">
+    <window id="2">
       <content type="file-editors">
         <state>
           <leaf>
-            <file leaf-file-name="TreeNode.java" pinned="false" current-in-tab="false">
-              <entry file="file://D:/极客学院/初识 DFS 与 BFS/源码/Course16/src/com/jikexueyuan/two/TreeNode.java">
+            <file leaf-file-name="CountNode.java" pinned="false" current-in-tab="true">
+              <entry file="file://D:/极客学院/初识 DFS 与 BFS/源码/Course16/src/com/jikexueyuan/three/CountNode.java">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state vertical-scroll-proportion="0.0">
-                    <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-                    <folding>
-                      <element signature="e#428#429#0" expanded="false" />
-                      <element signature="e#474#475#0" expanded="false" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file leaf-file-name="CreateBinaryTree.java" pinned="false" current-in-tab="false">
-              <entry file="file://D:/极客学院/初识 DFS 与 BFS/源码/Course16/src/com/jikexueyuan/two/CreateBinaryTree.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state vertical-scroll-proportion="0.0">
-                    <caret line="26" column="52" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
-                    <folding>
-                      <element signature="imports" expanded="false" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file leaf-file-name="BinaryTreeTraversal.java" pinned="false" current-in-tab="true">
-              <entry file="file://D:/极客学院/初识 DFS 与 BFS/源码/Course16/src/com/jikexueyuan/two/BinaryTreeTraversal.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state vertical-scroll-proportion="0.35031846">
-                    <caret line="52" column="22" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
+                  <state vertical-scroll-proportion="0.070063695">
+                    <caret line="56" column="1" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
                     <folding />
                   </state>
                 </provider>
@@ -85,6 +56,19 @@
             <state vertical-scroll-proportion="0.0">
               <caret line="114" column="15" selection-start-line="114" selection-start-column="15" selection-end-line="114" selection-end-column="15" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CountNode.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/bluestroy/binarytree/CountNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.303207">
+              <caret line="71" column="5" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1910#1923#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -116,10 +100,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BinaryTreeTraversal.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BinaryTreeTraversal.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/bluestroy/binarytree/BinaryTreeTraversal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.24477611">
+            <state vertical-scroll-proportion="0.0">
               <caret line="65" column="21" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -515,6 +499,7 @@
         <option value="$PROJECT_DIR$/src/com/bluestroy/binarytree/TreeNode.java" />
         <option value="$PROJECT_DIR$/src/com/bluestroy/binarytree/CretateBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/com/bluestroy/binarytree/BinaryTreeTraversal.java" />
+        <option value="$PROJECT_DIR$/src/com/bluestroy/binarytree/CountNode.java" />
       </list>
     </option>
   </component>
@@ -531,10 +516,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1445" />
-    <option name="y" value="20" />
-    <option name="width" value="1280" />
-    <option name="height" value="984" />
+    <option name="x" value="1358" />
+    <option name="y" value="-8" />
+    <option name="width" value="1296" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -1150,15 +1135,15 @@
       <workItem from="1474418351602" duration="5627000" />
       <workItem from="1474443994188" duration="136000" />
       <workItem from="1474444504419" duration="4214000" />
-      <workItem from="1474506575771" duration="3933000" />
+      <workItem from="1474506575771" duration="7196000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27533000" />
+    <option name="totallyTimeSpent" value="30796000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1445" y="20" width="1280" height="984" extended-state="0" />
+    <frame x="1358" y="-8" width="1296" height="1000" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1168,10 +1153,10 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45513865" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17957747" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17626728" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22950819" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22653721" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -2957,14 +2942,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bluestroy/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="114" column="15" selection-start-line="114" selection-start-column="15" selection-end-line="114" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/极客学院/初识 DFS 与 BFS/源码/Course16/src/com/jikexueyuan/two/TreeNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -3011,19 +2988,46 @@
     </entry>
     <entry file="file://D:/极客学院/初识 DFS 与 BFS/源码/Course16/src/com/jikexueyuan/two/BinaryTreeTraversal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35031846">
-          <caret line="52" column="22" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.24522293">
+          <caret line="49" column="3" selection-start-line="49" selection-start-column="3" selection-end-line="49" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/bluestroy/binarytree/BinaryTreeTraversal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24477611">
+        <state vertical-scroll-proportion="0.0">
           <caret line="65" column="21" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1409#1422#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bluestroy/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="114" column="15" selection-start-line="114" selection-start-column="15" selection-end-line="114" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/极客学院/初识 DFS 与 BFS/源码/Course16/src/com/jikexueyuan/three/CountNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.070063695">
+          <caret line="56" column="1" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bluestroy/binarytree/CountNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.303207">
+          <caret line="71" column="5" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1910#1923#0" expanded="true" />
           </folding>
         </state>
       </provider>
