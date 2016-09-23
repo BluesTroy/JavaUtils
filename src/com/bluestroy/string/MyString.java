@@ -90,6 +90,63 @@ public class MyString {
         }
     }
 
+    /**
+     * 反转一个单词
+     * @param sArray    要反转的数组
+     * @param startIndex    要反转部分的起始下标
+     * @param endIndex  要反转部分的终止下标
+     */
+    private void reverse(char [] sArray, int startIndex, int endIndex){
+        char temp;
+        for (;startIndex<endIndex;startIndex++,endIndex--){
+            temp = sArray[startIndex];
+            sArray[startIndex]=sArray[endIndex];
+            sArray[endIndex]=temp;
+        }
+    }
+
+    /**
+     * 反转句子中单词的顺序，要求单词内部不变。
+     * @param s 要反转的字符数组
+     */
+    public void reverseWords(char[] s){
+        if (s == null && s.length ==0) return;
+        int n = s.length;
+        int i=0;
+        int j;
+        while (i<n){
+            j=i;
+            //找到要反转的单词的第一个字母下标i和最后一个字母下标j
+            while (j<n){
+                if (s[j]==' ') break;
+                else j++;
+            }
+            reverse(s,i,j-1);
+            //跳过空格
+            while (j<n && s[j]==' ') j++;
+            //继续进行下一个单词
+            i=j;
+        }
+        //最后反转整个句子
+        reverse(s,0,n-1);
+    }
+
+    /**
+     * 调用String api实现反转句子中单词的顺序
+     * @param s
+     * @return
+     */
+    public String reverseWords2(String s){
+        String [] strArray = s.split("\\s");
+        StringBuilder result= new StringBuilder();
+        for (int i = strArray.length-1;i>0;i--){
+            result.append(strArray[i]+" ");
+        }
+        result.append(strArray[0]);
+        return result.toString();
+    }
+
+
     public static void main(String[] args){
         MyString ms = new MyString();
         int x = ms.lengthOfLastWord("  fd jl jlkj ljlk l lj lkkjlj  ");
@@ -98,6 +155,12 @@ public class MyString {
         System.out.println(x);
         System.out.println(ms.isAnagram("bca","aBc"));
 
+        String str = "hello world good night!";
+        char[] sArray = str.toCharArray();
+        ms.reverseWords(sArray);
+        System.out.println(sArray);
+        String ss = ms.reverseWords2(str);
+        System.out.println();
 
     }
 
